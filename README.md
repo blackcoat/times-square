@@ -12,4 +12,7 @@ Times Square is built using the [Aurelia](http://aurelia.io) framework. To set u
 * Install the Aurelia CLI (`npm install -g aurelia-cli`)
 
 To run Times Square locally:
-* `au run`
+* `au run --watch`
+
+To create a production-ready build:
+* `au build --env prod`
