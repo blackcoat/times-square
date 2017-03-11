@@ -1,4 +1,8 @@
+# OSX
 .DS_STORE
+
+# Aurelia
+scripts/
 
 # Logs
 logs
