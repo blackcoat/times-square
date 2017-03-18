@@ -4,6 +4,9 @@
 # Aurelia
 scripts/
 
+# Assets
+slick-carousel/
+
 # Logs
 logs
 *.log

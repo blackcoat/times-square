@@ -132,9 +132,20 @@
             "path": "../node_modules/aurelia-testing/dist/amd",
             "main": "aurelia-testing",
             "env": "dev"
+          },
+          "jquery",
+          {
+            "name": "slick-carousel",
+            "path": "../node_modules/slick-carousel/slick",
+            "main": "slick.min",
+            "resources": ["**/*.css"]
           }
         ]
       }
-    ]
+    ],
+    "copyFiles": {
+      "./node_modules/slick-carousel/slick/ajax-loader.gif": "./slick-carousel",
+      "./node_modules/slick-carousel/slick/fonts/slick.woff": "./slick-carousel/fonts"
+    }
   }
 }
