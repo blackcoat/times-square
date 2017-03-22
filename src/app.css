@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+.slick-slide {
+  background-size: cover;
+  height: 100vh;
+  padding: 4vh 3vw;
+}
