@@ -4,7 +4,6 @@ import 'slick-carousel';
 
 export class App {
   constructor() {
-    this.message = 'Hello World!';
   }
 
   attached() {
