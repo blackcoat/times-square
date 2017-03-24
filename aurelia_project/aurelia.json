@@ -139,6 +139,12 @@
             "path": "../node_modules/slick-carousel/slick",
             "main": "slick.min",
             "resources": ["**/*.css"]
+          },
+          {
+            "name": "bulma",
+            "path": "../node_modules/bulma/css",
+            "main": "",
+            "resources": ["bulma.css"]
           }
         ]
       }
