@@ -138,14 +138,19 @@
             "name": "slick-carousel",
             "path": "../node_modules/slick-carousel/slick",
             "main": "slick.min",
-            "resources": ["**/*.css"]
+            "resources": [
+              "**/*.css"
+            ]
           },
           {
             "name": "bulma",
             "path": "../node_modules/bulma/css",
             "main": "",
-            "resources": ["bulma.css"]
-          }
+            "resources": [
+              "bulma.css"
+            ]
+          },
+          "lodash"
         ]
       }
     ],
