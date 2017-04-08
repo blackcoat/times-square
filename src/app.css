@@ -11,5 +11,8 @@ iframe {
 .slick-slide {
   background-size: cover;
   height: 100vh;
+}
+
+.padded {
   padding: 4vh 3vw;
 }
